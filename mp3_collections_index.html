@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  <title>Talk collections | dhammatalks.org</title>
+  <meta name="description" content=".mp3 audio Dhamma talks organized around the traditional structures of the Buddha's teaching.">
+  <meta http-equiv="content-language" content="en">
+    <meta name="dhammatalks.org" content="" />
+  <meta name="robots" content="index,follow" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:image" content="/images/fb-logo.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+  <!--<link rel="stylesheet" href="/css/style.css" type="text/css" />-->
+  <link rel="stylesheet" href="/css/style-min.css" type="text/css" />
+  <link rel="stylesheet" href="/css/print-min.css" type="text/css" media="print" />
+  <link rel="stylesheet" href="/css/quick_links.css" type="text/css" />
+
+<!--jquery-->
+  <script src="/js/jquery.min.js"></script>
+
+<!--hotkeys-->
+  <script src="/js/hotkeys.min.js"></script>
+  <!--<script type="text/javascript" src="/js/jquery-3.2.0.min.js"></script>-->
+
+<!--sutta data for search-->
+  <script defer src="/js/quick_links.js"></script>
+
+<!--slicknav-->
+  <script type="text/javascript" src="/js/jquery.slicknav.min.js"></script>
+
+<!--this is the call for the new slicknav mobile menu-->
+  <script>
+  $(function(){
+        $('#nav-wrapper').slicknav({
+                prependTo: "div#container",
+                label: '',
+                duration:180,
+                easingOpen: "swing",
+                easingClose: "swing"
+            });
+          });
+  </script>
+
+<!--this loads the monospace font from google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
+<!-- Google Analytics -->
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-96749385-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+ 
+</head>
+
+<body>
+
+<div id="container">
+
+<!-- /////// banner-nav.html /////// -->
+    
+    <div id="nav-wrapper">      
+      <ul id="nav">
+        <li><a href="/suttas/index.html">suttas</a></li>
+        <li><a href="#">audio</a>
+          <ul>
+						<li><a href="/mp3_index_current.html">evening&nbsp;talks</a>
+              <ul>
+                <li><a href="/mp3_index_current.html">2020</a></li>
+                <li><a href="/mp3_index.html">archive</a></li>
+              </ul>
+            </li>
+						<li><a href="/mp3_short_index_current.html">short&nbsp;morning&nbsp;talks</a>
+              <ul>
+                <li><a href="/mp3_short_index_current.html">2020</a></li>
+                <li><a href="/mp3_short_index.html">archive</a></li>
+              </ul>
+            </li>
+            <li><a href="/mp3_long.php">lectures</a>
+            <li><a href="/mp3_guidedMed_index.html">guided&nbsp;meditations</a></li>
+						<li><a href="/mp3_collections_index.html">talk&nbsp;collections</a>
+              <ul>
+                <li><a href="/mp3_collections_index.html">all</a></li>
+                <li><a href="/mp3_collections_index.html#basics">basics</a></li>
+                <li><a href="/mp3_collections_index.html#strengths">five&nbsp;strengths</a></li>
+                <li><a href="/mp3_collections_index.html#seven">seven&nbsp;factors&nbsp;for&nbsp;awakening</a></li>
+                <li><a href="/mp3_collections_index.html#death">refuge&nbsp;from&nbsp;death</a></li>
+                <li><a href="/mp3_collections_index.html#eight">noble&nbsp;eightfold&nbsp;path</a></li>
+                <li><a href="/mp3_collections_index.html#witheachandeverybreath">with&nbsp;each&nbsp;&amp;&nbsp;every&nbsp;breath</a></li>
+                <li><a href="/mp3_topical_index.html">other&nbsp;themes</a></li>
+              </ul>
+            </li>
+            <li><a href="/chant_index.html">chants</a></li>
+					</ul>
+        </li>
+        <li><a href="/ebook_index.html">books</a></li>
+        <div id="worldMap">
+        <li><a href="#"><img src="/images/world-map-silhouette3.png" width="44px" style="vertical-align:middle" /></a>
+          <ul>
+            <div class="th_nav">
+            <li><a href="#">ไทย</a>
+              <ul>
+                <li><a href="/thai_index.html">อบรมภาวนา&nbsp;ตอนเย็น</a></li>
+                <li><a href="/thai_short_index.html">เทศน์ตอนเช้า</a></li>
+                <li><a href="/thai_txt_index.html">หนังสือ</a></li>
+              </ul>
+            </li>
+            </div><!--end th_nav-->
+            <li><a href="#">français</a>
+              <ul>
+                <li><a href="/french_index.html">livres</a></li>
+                <li><a href="/french_mp3_index.html">enseignements&nbsp;audio</a></li>
+              </ul>
+            </li>
+            <li><a href="/es_txt_index.html">español</a></li>
+            <li><a href="/de_txt_index.html">Deutsch</a></li>
+            <li><a href="/pt_txt_index.html">português</a></li>
+            <div class="ru_nav">
+              <li><a href="/ru_txt_index.html">русский</a></li>
+            </div><!--end ru-nav-->
+            </ul>
+        </li>
+        </div><!--end worldMap-->
+        <li class="desktop-search">
+          <div class="quick-links">
+            <input type="text" placeholder="search..." disabled />
+            <ul>
+            </ul>
+          </div>
+        </li>
+        <li class="mobile-search"><a href="/search.html">search</a></li>
+      </ul>
+    </div><!--end:nav wrapper-->
+
+
+<div id="content">
+
+	<div id="welcome">
+
+	<h1>Evening Talks Collected by Theme</h1>
+  <div class="fullarchive">		
+	<ul>
+<li class="month" id="basics">Basics</li>
+<p>A graduated series of 50 Dhamma talks for meditators, starting with breath meditation and leading through issues of discernment. An expanded version of this series (64 talks) is available on <a class="buried" href="https://www.youtube.com/watch?v=lGCih9KEUdA&list=PLOjrj_IM0EYrQFQSZbJgf-L-B5oCoYoTi">youtube</a>.</p>
+<ul>
+  <li class="first"><a class="zip" href="/Archive/basics_collection/all_50_basics.zip"><img src="/images/zip_48.png" />Full set zip</a></li>
+<ul>
+<li><a href="/Archive/basics_collection/01%20Strength%20from%20the%20Basics.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;1</span> Strength from the Basics</a></li>
+<li><a href="/Archive/basics_collection/02%20Basics.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;2</span> Basics</a></li>
+<li><a href="/Archive/basics_collection/03%20Stay%20with%20the%20Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;3</span> Stay with the Breath</a></li>
+<li><a href="/Archive/basics_collection/04%20Breath%20by%20Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;4</span> Breath by Breath</a></li>
+<li><a href="/Archive/basics_collection/05%20Analyzing%20the%20Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;5</span> Analyzing the Breath</a></li>
+<li><a href="/Archive/basics_collection/06%20Levels%20of%20the%20Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;6</span> Levels of the Breath</a></li>
+<li><a href="/Archive/basics_collection/07%20Breathing%20Through%20Daily%20Life.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;7</span> Breathing Through Daily Life</a></li>
+<li><a href="/Archive/basics_collection/08%20At%20Ease%20with%20the%20Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;8</span> At Ease with the Breath</a></li>
+<li><a href="/Archive/basics_collection/09%20Immersed%20in%20the%20Body.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;9</span> Immersed in the Body</a></li>
+<li><a href="/Archive/basics_collection/10%20Pleasure%20&%20Pain.mp3" class="audio" title="download audio"><span class="smalldate mono">10</span> Pleasure & Pain</a></li>
+<li><a href="/Archive/basics_collection/11%20Breath%20Meditation.mp3" class="audio" title="download audio"><span class="smalldate mono">11</span> Breath Meditation</a></li>
+<li><a href="/Archive/basics_collection/12%20Taking%20a%20Stance.mp3" class="audio" title="download audio"><span class="smalldate mono">12</span> Taking a Stance</a></li>
+<li><a href="/Archive/basics_collection/13%20The%20Joy%20of%20Effort.mp3" class="audio" title="download audio"><span class="smalldate mono">13</span> The Joy of Effort</a></li>
+<li><a href="/Archive/basics_collection/14%20Experimental%20Intelligence.mp3" class="audio" title="download audio"><span class="smalldate mono">14</span> Experimental Intelligence</a></li>
+<li><a href="/Archive/basics_collection/15%20The%20Path%20of%20Mistakes.mp3" class="audio" title="download audio"><span class="smalldate mono">15</span> The Path of Mistakes</a></li>
+<li><a href="/Archive/basics_collection/16%20A%20Post%20by%20the%20Ocean.mp3" class="audio" title="download audio"><span class="smalldate mono">16</span> A Post by the Ocean</a></li>
+<li><a href="/Archive/basics_collection/17%20The%20Active%20Truth.mp3" class="audio" title="download audio"><span class="smalldate mono">17</span> The Active Truth</a></li>
+<li><a href="/Archive/basics_collection/18%20The%20Middleness%20of%20the%20Path.mp3" class="audio" title="download audio"><span class="smalldate mono">18</span> The Middleness of the Path</a></li>
+<li><a href="/Archive/basics_collection/19%20The%20Grass%20at%20the%20Gate.mp3" class="audio" title="download audio"><span class="smalldate mono">19</span> The Grass at the Gate</a></li>
+<li><a href="/Archive/basics_collection/20%20A%20Magic%20Set%20of%20Tools.mp3" class="audio" title="download audio"><span class="smalldate mono">20</span> A Magic Set of Tools</a></li>
+<li><a href="/Archive/basics_collection/21%20Perception.mp3" class="audio" title="download audio"><span class="smalldate mono">21</span> Perception</a></li>
+<li><a href="/Archive/basics_collection/22%20Little%20Things.mp3" class="audio" title="download audio"><span class="smalldate mono">22</span> Little Things</a></li>
+<li><a href="/Archive/basics_collection/23%20Stepping%20Back.mp3" class="audio" title="download audio"><span class="smalldate mono">23</span> Stepping Back</a></li>
+<li><a href="/Archive/basics_collection/24%20Generosity%20First.mp3" class="audio" title="download audio"><span class="smalldate mono">24</span> Generosity First</a></li>
+<li><a href="/Archive/basics_collection/25%20Self%20Esteem.mp3" class="audio" title="download audio"><span class="smalldate mono">25</span> Self Esteem</a></li>
+<li><a href="/Archive/basics_collection/26%20Goodwill%20All%20Around.mp3" class="audio" title="download audio"><span class="smalldate mono">26</span> Goodwill All Around</a></li>
+<li><a href="/Archive/basics_collection/27%20A%20Sense%20of%20Adventure.mp3" class="audio" title="download audio"><span class="smalldate mono">27</span> A Sense of Adventure</a></li>
+<li><a href="/Archive/basics_collection/28%20Gladdening%20the%20Mind.mp3" class="audio" title="download audio"><span class="smalldate mono">28</span> Gladdening the Mind</a></li>
+<li><a href="/Archive/basics_collection/29%20Strategies%20for%20Happiness.mp3" class="audio" title="download audio"><span class="smalldate mono">29</span> Strategies for Happiness</a></li>
+<li><a href="/Archive/basics_collection/30%20Mindstorms.mp3" class="audio" title="download audio"><span class="smalldate mono">30</span> Mindstorms</a></li>
+<li><a href="/Archive/basics_collection/31%20Resistance.mp3" class="audio" title="download audio"><span class="smalldate mono">31</span> Resistance</a></li>
+<li><a href="/Archive/basics_collection/32%20Suppressed%20Emotions.mp3" class="audio" title="download audio"><span class="smalldate mono">32</span> Suppressed Emotions</a></li>
+<li><a href="/Archive/basics_collection/33%20Your%20Inner%20Mob.mp3" class="audio" title="download audio"><span class="smalldate mono">33</span> Your Inner Mob</a></li>
+<li><a href="/Archive/basics_collection/34%20Social%20Anxiety.mp3" class="audio" title="download audio"><span class="smalldate mono">34</span> Social Anxiety</a></li>
+<li><a href="/Archive/basics_collection/35%20A%20Decent%20Education.mp3" class="audio" title="download audio"><span class="smalldate mono">35</span> A Decent Education</a></li>
+<li><a href="/Archive/basics_collection/36%20Battling%20Darkness.mp3" class="audio" title="download audio"><span class="smalldate mono">36</span> Battling Darkness</a></li>
+<li><a href="/Archive/basics_collection/37%20Fear%20of%20Death.mp3" class="audio" title="download audio"><span class="smalldate mono">37</span> Fear of Death</a></li>
+<li><a href="/Archive/basics_collection/38%20Marshalling%20the%20Emotions.mp3" class="audio" title="download audio"><span class="smalldate mono">38</span> Marshalling the Emotions</a></li>
+<li><a href="/Archive/basics_collection/39%20Heedfulness.mp3" class="audio" title="download audio"><span class="smalldate mono">39</span> Heedfulness</a></li>
+<li><a href="/Archive/basics_collection/40%20A%20Refuge%20from%20Modern%20Values.mp3" class="audio" title="download audio"><span class="smalldate mono">40</span> A Refuge from Modern Values</a></li>
+<li><a href="/Archive/basics_collection/41%20Antidotes%20for%20Clinging.mp3" class="audio" title="download audio"><span class="smalldate mono">41</span> Antidotes for Clinging</a></li>
+<li><a href="/Archive/basics_collection/42%20The%20Walls%20of%20Ignorance.mp3" class="audio" title="download audio"><span class="smalldate mono">42</span> The Walls of Ignorance</a></li>
+<li><a href="/Archive/basics_collection/43%20Warrior%20Knowledge.mp3" class="audio" title="download audio"><span class="smalldate mono">43</span> Warrior Knowledge</a></li>
+<li><a href="/Archive/basics_collection/44%20Universal%20Truths.mp3" class="audio" title="download audio"><span class="smalldate mono">44</span> Universal Truths</a></li>
+<li><a href="/Archive/basics_collection/45%20The%20Skill%20of%20Restraint.mp3" class="audio" title="download audio"><span class="smalldate mono">45</span> The Skill of Restraint</a></li>
+<li><a href="/Archive/basics_collection/46%20Fabricating%20the%20Present.mp3" class="audio" title="download audio"><span class="smalldate mono">46</span> Fabricating the Present</a></li>
+<li><a href="/Archive/basics_collection/47%20The%20Treasure%20Hunt.mp3" class="audio" title="download audio"><span class="smalldate mono">47</span> The Treasure Hunt</a></li>
+<li><a href="/Archive/basics_collection/48%20The%20Saints%20Don't%20Grieve.mp3" class="audio" title="download audio"><span class="smalldate mono">48</span> The Saints Don’t Grieve</a></li>
+<li><a href="/Archive/basics_collection/49%20Wise%20Effort.mp3" class="audio" title="download audio"><span class="smalldate mono">49</span> Wise Effort</a></li>
+<li><a href="/Archive/basics_collection/50%20Walking%20Meditation%20-%20Stillness%20in%20Motion.mp3" class="audio" title="download audio"><span class="smalldate mono">50</span> Walking Meditation - Stillness in Motion</a></li>
+</ul>
+</ul>
+  <li class="month" id="strengths">The Five Strengths</li>
+<p>A series of 5 Dhamma talks following one of the sets of the Buddha’s fundamental teachings from the 37 Wings to Awakening.</p>
+	<ul>
+<li class="first"><a class="zip" href="/Archive/five_strengths/the_five_strengths.zip"><img src="/images/zip_48.png" />Full set zip</a></li>
+<ul>
+<li><a href="/Archive/five_strengths/120101_Strengthening_Conviction.mp3" class="audio" title="download audio"><span class="smalldate mono">1</span> Strengthening Conviction</a></li>
+<li><a href="/Archive/five_strengths/120102_Generating_Energy.mp3" class="audio" title="download audio"><span class="smalldate mono">2</span> Generating Energy</a></li>
+<li><a href="/Archive/five_strengths/120104_Strengthening_Mindfulness.mp3" class="audio" title="download audio"><span class="smalldate mono">3</span> Strengthening Mindfulness</a></li>
+<li><a href="/Archive/five_strengths/120105_Strengthening_Concentration.mp3" class="audio" title="download audio"><span class="smalldate mono">4</span> Strengthening Concentration</a></li>
+<li><a href="/Archive/five_strengths/120111_Strengthening_Discernment.mp3" class="audio" title="download audio"><span class="smalldate mono">5</span> Strengthening Discernment</a></li>
+</ul>
+</ul>
+
+  <li class="month" id="seven">The Seven Factors for Awakening</li>
+<p>A series of 7 Dhamma talks following one of the sets of the Buddha’s fundamental teachings from the 37 Wings to Awakening.</p>
+	<ul>
+<li class="first"><a class="zip" href="/Archive/seven_factors/seven_factors.zip"><img src="/images/zip_48.png" />Full set zip</a></li>
+<ul>
+<li><a href="/Archive/seven_factors/01%20Mindfulness%20(110723).mp3" class="audio" title="download audio"><span class="smalldate mono">1</span> Mindfulness</a></li>
+<li><a href="/Archive/seven_factors/02%20Analysis%20of%20Qualities%20(110730%20sony).mp3" class="audio" title="download audio"><span class="smalldate mono">2</span> Analysis of Qualities (sony)</a></li>
+<li><a href="/Archive/seven_factors/03%20Persistence%20(110807%20sony).mp3" class="audio" title="download audio"><span class="smalldate mono">3</span> Persistence (sony)</a></li>
+<li><a href="/Archive/seven_factors/04%20Rapture%20(110822).mp3" class="audio" title="download audio"><span class="smalldate mono">4</span> Rapture</a></li>
+<li><a href="/Archive/seven_factors/05%20Serenity%20(110905).mp3" class="audio" title="download audio"><span class="smalldate mono">5</span> Serenity</a></li>
+<li><a href="/Archive/seven_factors/06%20Concentration%20(110912).mp3" class="audio" title="download audio"><span class="smalldate mono">6</span> Concentration</a></li>
+<li><a href="/Archive/seven_factors/07%20Equanimity%20(110927).mp3" class="audio" title="download audio"><span class="smalldate mono">7</span> Equanimity</a></li>
+</ul>
+</ul>
+
+  
+<li class="month" id="death">A Refuge from Death</li>
+<p>A collection of 20 Dhamma talks, chants, sutta readings and guided meditations for listening as one approaches death.</p>
+	<ul>
+<li class="first"><a class="zip" href="/Archive/refuge_from_death/refuge_from_death_v120121.zip"><img src="/images/zip_48.png" />Full set zip</a></li>
+<ul>
+<li><a href="/Archive/refuge_from_death/01_Chant_Four_Dhamma_Summaries.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;1</span> Chant: The Four Dhamma Summaries</a></li>
+<li><a href="/Archive/refuge_from_death/02_Talk_Expand_Your_Mind.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;2</span> Dhamma Talk: Expand Your Mind</a></li>
+<li><a href="/Archive/refuge_from_death/03_Chant_Five_Recollections.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;3</span> Chant: The Five Recollections</a></li>
+<li><a href="/Archive/refuge_from_death/04_Sutta_Five_Recollections_(AN_5_57).mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;4</span> Sutta Reading: The Five Recollections (Anguttara Nikaya 5.57)</a></li>
+<li><a href="/Archive/refuge_from_death/05_Meditation_Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;5</span> Meditation: Guided Breath Meditation</a></li>
+<li><a href="/Archive/refuge_from_death/06_Talk_Facing_Pain.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;6</span> Dhamma Talk: Facing Pain</a></li>
+<li><a href="/Archive/refuge_from_death/07_Sutta_The_Arrow_(SN_36_6).mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;7</span> Sutta Reading: The Arrow (Samyutta Nikaya 36.6)</a></li>
+<li><a href="/Archive/refuge_from_death/08_Talk_Endurance_Made_Easier.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;8</span> Dhamma Talk: Endurance Made Easier</a></li>
+<li><a href="/Archive/refuge_from_death/09_Sutta_Afflicted_in_Body_(SN_22_2).mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;9</span> Sutta Reading: Afflicted in Body (Samyutta Nikaya 22.2)</a></li>
+<li><a href="/Archive/refuge_from_death/10_Meditation_Metta.mp3" class="audio" title="download audio"><span class="smalldate mono">10</span> Meditation: Guided Metta Meditation</a></li>
+<li><a href="/Archive/refuge_from_death/11_Chant_Sublime_Attitudes.mp3" class="audio" title="download audio"><span class="smalldate mono">11</span> Chant: The Sublime Attitudes</a></li>
+<li><a href="/Archive/refuge_from_death/12_Chant_Karaniya_Metta_Sutta.mp3" class="audio" title="download audio"><span class="smalldate mono">12</span> Chant: The Metta Sutta</a></li>
+<li><a href="/Archive/refuge_from_death/13_Meditation_Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">13</span> Meditation: Guided Breath Meditation</a></li>
+<li><a href="/Archive/refuge_from_death/14_Talk_Preparing_to_Die_Well.mp3" class="audio" title="download audio"><span class="smalldate mono">14</span> Dhamma Talk: Preparing to Die Well</a></li>
+<li><a href="/Archive/refuge_from_death/15_Sutta_The_Sick_Ward_(SN_36_7).mp3" class="audio" title="download audio"><span class="smalldate mono">15</span> Sutta Reading: The Sick Ward (Samyutta Nikaya 36.7)</a></li>
+<li><a href="/Archive/refuge_from_death/16_Reading_Ajaan_Lee.mp3" class="audio" title="download audio"><span class="smalldate mono">16</span> Reading: Ajaan Lee</a></li>
+<li><a href="/Archive/refuge_from_death/17_Chant_Verses_on_the_Noble_Truths.mp3" class="audio" title="download audio"><span class="smalldate mono">17</span> Chant: Verses on the Noble Truths</a></li>
+<li><a href="/Archive/refuge_from_death/18_Talk_Don't_Worry,_Be_Focused.mp3" class="audio" title="download audio"><span class="smalldate mono">18</span> Dhamma Talk: Don't Worry, Be Focused (<img src="images/new16.png" />new)</a></li>
+<li><a href="/Archive/refuge_from_death/19_Sutta_Anathapindaka_(MN_143).mp3" class="audio" title="download audio"><span class="smalldate mono">19</span> Sutta Reading: Anathapindaka (Majjhima Nikaya 143)</a></li>
+<li><a href="/Archive/refuge_from_death/20_Meditation_Breath_with_Exit.mp3" class="audio" title="download audio"><span class="smalldate mono">20</span> Meditation: Guided Breath Meditation & How to Exit Meditation</a></li>
+</ul>
+</ul>
+
+  
+<li class="month" id="eight">The Noble Eightfold Path</li>
+
+<p>The Noble Eightfold Path forms the framework for all the Buddha’s teachings. It was the first topic he mentioned in his first sermon, and the last topic he mentioned in his last. The edited transcripts of these talks are available in eBook form as <a href="/ebook_index.html#eightfoldPath" class="buried">The Noble Eightfold Path: 13 Meditations Talks</a> on the eBooks page.</p>
+	<ul>
+<li class="first"><a class="zip" href="/Archive/TheEightfoldPath/noble_eight_v1207.zip"><img src="/images/zip_48.png" />Full set zip</a></li>
+
+<ul>
+<li><a href="/Archive/TheEightfoldPath/0_110707%20An%20Overview%20of%20the%20Path.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;1</span> An Overview of the Path</a></li>
+<li><a href="/Archive/TheEightfoldPath/1_071120%20Right%20View.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;2</span> Right View</a></li>
+<li><a href="/Archive/TheEightfoldPath/2_120607_Right_Resolve.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;3</span> Right Resolve</a></li>
+<li><a href="/Archive/TheEightfoldPath/3_071126%20Right%20Speech.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;4</span> Right Speech</a></li>
+<li><a href="/Archive/TheEightfoldPath/4_071128%20Right%20Action.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;5</span> Right Action</a></li>
+<li><a href="/Archive/TheEightfoldPath/5_071221%20Right%20Livelihood.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;6</span> Right Livelihood</a></li>
+<li><a href="/Archive/TheEightfoldPath/6_071224%20Right%20Effort.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;7</span> Right Effort</a></li>
+<li><a href="/Archive/TheEightfoldPath/7a_071225%20Right%20Mindfulness%20-%20The%20First%20Frame%20of%20Reference.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;8</span> Right Mindfulness - The First Frame of Reference</a></li>
+<li><a href="/Archive/TheEightfoldPath/7b_090921%20Right%20Mindfulness%20-%20The%20Second%20Frame%20of%20Reference.mp3" class="audio" title="download audio"><span class="smalldate mono">&nbsp;9</span> Right Mindfulness - The Second Frame of Reference</a></li>
+<li><a href="/Archive/TheEightfoldPath/7c_091015%20Right%20Mindfulness%20-%20The%20Third%20Frame%20of%20Reference.mp3" class="audio" title="download audio"><span class="smalldate mono">10</span> Right Mindfulness - The Third Frame of Reference</a></li>
+<li><a href="/Archive/TheEightfoldPath/7d_090329%20Right%20Mindfulness%20-%20The%20Fourth%20Frame%20of%20Reference.mp3" class="audio" title="download audio"><span class="smalldate mono">11</span> Right Mindfulness - The Fourth Frame of Reference</a></li>
+<li><a href="/Archive/TheEightfoldPath/8_071227%20Right%20Concentration.mp3" class="audio" title="download audio"><span class="smalldate mono">12</span> Right Concentration</a></li>
+<li><a href="/Archive/TheEightfoldPath/8a_141202_Right_Concentration_-_The_Uses_of_Right_Concentration.mp3" class="audio" title="download audio"><span class="smalldate mono">13</span> Right Concentration - The Uses of Right Concentration</a></li>
+</ul>
+</ul>
+
+  
+<li class="month" id="witheachandeverybreath">With Each &amp; Every Breath</li>
+<p>Thanissaro Bhikkhu’s meditation guide <em>With Each &amp; Every Breath</em> lists recommended Dhamma talks at the end of each chapter. Those talks are presented here in that same order.</p>
+<p>This zip archive is very large, <strong><span class="redfont">1 full gigabyte</span></strong>. Please use a download accelerator so you get an uncorrupted archive on the first attempt.</p>
+<p>Written transcripts are accessible via the <img src="/images/pdf_36.png" style="max-height:.80em" /> icon to the right of the talk link. Also, all of the transcripts are collected into a companion volume, <a href="/ebook_index.html#GatherRound" class="buried">Gather ’Round the Breath</a>, which can be read online or downloaded in ebook formats.</p>
+	    <ul>
+      <li class="first"><a class="zip" href="/Archive/witheach/WithEachAndEveryBreath116Talks.zip"><img src="/images/zip_48.png" />Full set zip</a></li>
+        <ul>
+          <li class="first half">Introduction</li>
+          <li><a href="/Archive/y2007/070606 The Noble Search for Happiness.mp3" class="audio" title="download audio"><span class="smalldate mono">070606</span> The Noble Search for Happiness</a><a href="/books/GatherRound/Section0003.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111017 Why Train the Mind.mp3" class="audio" title="download audio"><span class="smalldate mono">111017</span> Why We Train the Mind</a><a href="/books/GatherRound/Section0004.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111222_Counter-cultural_Values.mp3" class="audio" title="download audio"><span class="smalldate mono">111222</span> Countercultural Values</a><a href="/books/GatherRound/Section0005.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120404_The_Intelligent_Heart.mp3" class="audio" title="download audio"><span class="smalldate mono">120404</span> The Intelligent Heart</a><a href="/books/GatherRound/Section0006.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120620_Home_Schooling_Your_Inner_Children.mp3" class="audio" title="download audio"><span class="smalldate mono">120620</span> Homeschooling Your Inner Children</a><a href="/books/GatherRound/Section0007.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2005/050307 Open Committee, The.mp3" class="audio" title="download audio"><span class="smalldate mono">050307</span> The Open Committee</a><a href="/books/GatherRound/Section0008.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110206 Organizing Your Inner Committee.mp3" class="audio" title="download audio"><span class="smalldate mono">110206</span> Organizing Your Inner Committee</a><a href="/books/GatherRound/Section0009.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2006/060113 Unskillful Voices.mp3" class="audio" title="download audio"><span class="smalldate mono">060113</span> Unskillful Voices</a><a href="/books/GatherRound/Section0010.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2005/050521 Karma of Self & Not-self, The.mp3" class="audio" title="download audio"><span class="smalldate mono">050521</span> The Karma of Self <em>&amp;</em> Not-self</a><a href="/books/GatherRound/Section0011.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2005/050412 Need for Stillness, The.mp3" class="audio" title="download audio"><span class="smalldate mono">050412</span> The Need for Stillness</a><a href="/books/GatherRound/Section0012.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2005/050327 Everybody Suffers.mp3" class="audio" title="download audio"><span class="smalldate mono">050327</span> Everybody Suffers</a><a href="/books/GatherRound/Section0013.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2004/040109 Why the Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">040109</span> Why the Breath</a><a href="/books/GatherRound/Section0014.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/100813 Why Mindfulness.mp3" class="audio" title="download audio"><span class="smalldate mono">100813</span> Why Mindfulness</a><a href="/books/GatherRound/Section0015.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2009/090723 Concentration Nurtured with Virtue.mp3" class="audio" title="download audio"><span class="smalldate mono">090723</span> Concentration Nurtured with Virtue</a><a href="/books/GatherRound/Section0016.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2001/0105n3a1 Concentration & Insight.mp3" class="audio" title="download audio"><span class="smalldate mono">0105&nbsp;&nbsp;</span> Concentration <em>&amp;</em> Insight</a><a href="/books/GatherRound/Section0017.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li class="first half">Part One</li>
+          <li><a href="/Archive/y2012/120204_In_Shape_to_Meditate.mp3" class="audio" title="download audio"><span class="smalldate mono">120204</span> In Shape to Meditate</a><a href="/books/GatherRound/Section0018.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2004/040724 Maintaining Goodwill.mp3" class="audio" title="download audio"><span class="smalldate mono">040724</span> Maintaining Goodwill</a><a href="/books/GatherRound/Section0019.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2005/050902 Metta Meditation.mp3" class="audio" title="download audio"><span class="smalldate mono">050902</span> Metta Meditation</a><a href="/books/GatherRound/Section0020.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111221_Goodwill_&_Heedfulness.mp3" class="audio" title="download audio"><span class="smalldate mono">111221</span> Goodwill and Heedfulness</a><a href="/books/GatherRound/Section0021.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <p class="first half"><em>The collection of talks entitled</em> <a class="buried" href="#basics">Basics</a> <em> (on this page) contains many talks dealing with issues that arise as you start learning how to focus on the breath.</em></p>
+          <li><a href="/Archive/y2011/110810 Gather 'Round the Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">110810</span> Gather ’Round the Breath</a><a href="/books/GatherRound/Section0022.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2006/061103 Allowing the Breath to Spread.mp3" class="audio" title="download audio"><span class="smalldate mono">061103</span> Allowing the Breath to Spread</a><a href="/books/GatherRound/Section0023.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/100207 Brahmaviharas at the Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">100207</span> Brahmaviharas at the Breath</a><a href="/books/GatherRound/Section0024.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111205_Turn_Off_the_Automatic_Pilot.mp3" class="audio" title="download audio"><span class="smalldate mono">111205</span> Turn Off the Automatic Pilot</a><a href="/books/GatherRound/Section0025.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120721_Choiceful_Awareness.mp3" class="audio" title="download audio"><span class="smalldate mono">120721</span> Choiceful Awareness</a><a href="/books/GatherRound/Section0026.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110816 Artillery All Around.mp3" class="audio" title="download audio"><span class="smalldate mono">110816</span> Artillery All Around</a><a href="/books/GatherRound/Section0027.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111206_Views,_Virtue,_&_Mindfulness.mp3" class="audio" title="download audio"><span class="smalldate mono">111206</span> Views, Virtue, <em>&amp;</em> Mindfulness</a><a href="/books/GatherRound/Section0028.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2005/050422 Ekaggata.mp3" class="audio" title="download audio"><span class="smalldate mono">050422</span> Ekaggata</a><a href="/books/GatherRound/Section0029.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110410 Training Your Minds.mp3" class="audio" title="download audio"><span class="smalldate mono">110410</span> Training Your Minds</a><a href="/books/GatherRound/Section0030.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110927 Equanimity.mp3" class="audio" title="download audio"><span class="smalldate mono">110927</span> Equanimity</a><a href="/books/GatherRound/Section0031.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120121_A_Mirror_for_the_Mind.mp3" class="audio" title="download audio"><span class="smalldate mono">120121</span> A Mirror for the Mind</a><a href="/books/GatherRound/Section0032.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2007/070508 Centered in the Body.mp3" class="audio" title="download audio"><span class="smalldate mono">070508</span> Centered in the Body</a><a href="/books/GatherRound/Section0033.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/100328 Mindful Judgment.mp3" class="audio" title="download audio"><span class="smalldate mono">100328</span> Mindful Judgment</a><a href="/books/GatherRound/Section0034.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+      <li class="first half">Part Two</li>
+      <li><a href="/Archive/y2012/120523_Pain_Is_Not_the_Enemy.mp3" class="audio" title="download audio"><span class="smalldate mono">120523</span> Pain is Not the Enemy</a><a href="/books/GatherRound/Section0035.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+      <li><a href="/Archive/y2012/120731_Pleasure_&_Pain.mp3" class="audio" title="download audio"><span class="smalldate mono">120731</span> Pleasure <em>&amp;</em> Pain</a><a href="/books/GatherRound/Section0036.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+      <li><a href="/Archive/y2010/100605 Insight into Pain.mp3" class="audio" title="download audio"><span class="smalldate mono">100605</span> Insight into Pain</a><a href="/books/GatherRound/Section0037.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/121122_Take_the_One_Seat(med-fi).mp3" class="audio" title="download audio"><span class="smalldate mono">121122</span> Take the One Seat</a><a href="/books/GatherRound/Section0038.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120101_Strengthening_Conviction.mp3" class="audio" title="download audio"><span class="smalldate mono">120101</span> Strengthening Conviction</a><a href="/books/GatherRound/Section0039.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/100323 Perceptions of the Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">100323</span> Perceptions of the Breath</a><a href="/books/GatherRound/Section0040.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2009/091109 The Power of Perception.mp3" class="audio" title="download audio"><span class="smalldate mono">091109</span> The Power of Perception</a><a href="/books/GatherRound/Section0041.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2008/080203 Judging Your Meditation.mp3" class="audio" title="download audio"><span class="smalldate mono">080203</span> Judging Your Meditation</a><a href="/books/GatherRound/Section0042.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2008/080206 Good & Bad Meditation.mp3" class="audio" title="download audio"><span class="smalldate mono">080206</span> Good <em>&amp;</em> Bad Meditation</a><a href="/books/GatherRound/Section0043.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120112_Evaluating_Your_Practice.mp3" class="audio" title="download audio"><span class="smalldate mono">120112</span> Evaluating Your Practice</a><a href="/books/GatherRound/Section0044.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101128 Measuring Progress.mp3" class="audio" title="download audio"><span class="smalldate mono">101128</span> Measuring Progress</a><a href="/books/GatherRound/Section0045.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101119 Delusion Concentration.mp3" class="audio" title="download audio"><span class="smalldate mono">101119</span> Delusion Concentration</a><a href="/books/GatherRound/Section0046.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2003/0301n1a2 Mistakes.mp3" class="audio" title="download audio"><span class="smalldate mono">0301&nbsp;&nbsp;</span> No Mistakes are Fatal</a><a href="/books/GatherRound/Section0047.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2009/091003 Ups & Downs.mp3" class="audio" title="download audio"><span class="smalldate mono">091003</span> Ups <em>&amp;</em> Downs</a><a href="/books/GatherRound/Section0048.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2009/090726 Patience & Urgency.mp3" class="audio" title="download audio"><span class="smalldate mono">090726</span> Patience <em>&amp;</em> Urgency</a><a href="/books/GatherRound/Section0049.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120810_Fabricating_with_Awareness.mp3" class="audio" title="download audio"><span class="smalldate mono">120810</span> Fabricating with Awareness</a><a href="/books/GatherRound/Section0050.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120817_The_Arrow_in_the_Heart.mp3" class="audio" title="download audio"><span class="smalldate mono">120817</span> The Arrow in the Heart</a><a href="/books/GatherRound/Section0051.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2004/041124 Unskillful Thinking.mp3" class="audio" title="download audio"><span class="smalldate mono">041124</span> Unskillful Thinking</a><a href="/books/GatherRound/Section0052.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110414 Unlearning Unskillful Behavior.mp3" class="audio" title="download audio"><span class="smalldate mono">110414</span> Unlearning Unskillful Behavior</a><a href="/books/GatherRound/Section0053.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/100421 The Arrows of Emotion.mp3" class="audio" title="download audio"><span class="smalldate mono">100421</span> The Arrows of Emotion</a><a href="/books/GatherRound/Section0054.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120722_A_Refuge_from_Aging,_Illness,_&_Death.mp3" class="audio" title="download audio"><span class="smalldate mono">120722</span> A Refuge from Illness, Aging, <em>&amp;</em> Death</a><a href="/books/GatherRound/Section0055.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110130 Sober Up.mp3" class="audio" title="download audio"><span class="smalldate mono">110130</span> Sober Up</a><a href="/books/GatherRound/Section0056.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111020 In the Mood.mp3" class="audio" title="download audio"><span class="smalldate mono">111020</span> In the Mood</a><a href="/books/GatherRound/Section0057.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110815 Today Is Better than Yesterday.mp3" class="audio" title="download audio"><span class="smalldate mono">110815</span> Today is Better than Yesterday</a><a href="/books/GatherRound/Section0058.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101207 Get Out of the Way.mp3" class="audio" title="download audio"><span class="smalldate mono">101207</span> Get Out of the Way</a><a href="/books/GatherRound/Section0059.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101213 Antidotes.mp3" class="audio" title="download audio"><span class="smalldate mono">101213</span> Antidotes</a><a href="/books/GatherRound/Section0060.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101111 Sorting Yourselves Out.mp3" class="audio" title="download audio"><span class="smalldate mono">121111</span> Sorting Yourselves Out</a><a href="/books/GatherRound/Section0061.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2005/050309 Purity of Heart.mp3" class="audio" title="download audio"><span class="smalldate mono">050309</span> Purity of Heart</a><a href="/books/GatherRound/Section0062.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120725_Feeding_on_the_Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">120725</span> Feeding on the Breath</a><a href="/books/GatherRound/Section0063.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120727_Practicing_from_Gratitude.mp3" class="audio" title="download audio"><span class="smalldate mono">120727</span> Practicing from Gratitude</a><a href="/books/GatherRound/Section0064.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li class="first half">Part Three</li>
+          <li><a href="/Archive/y2011/110620 For the Survival of Your Goodness.mp3" class="audio" title="download audio"><span class="smalldate mono">110620</span> For the Survival of Your Goodness</a><a href="/books/GatherRound/Section0065.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111022 After-work Meditation (sony).mp3" class="audio" title="download audio"><span class="smalldate mono">111022</span> After-work Meditation</a><a href="/books/GatherRound/Section0066.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2009/090814 A Culture of Self reliance.mp3" class="audio" title="download audio"><span class="smalldate mono">090814</span> A Culture of Self-reliance</a><a href="/books/GatherRound/Section0067.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2006/061013 A Wilderness Mind at Home.mp3" class="audio" title="download audio"><span class="smalldate mono">061013</span> A Wilderness Mind at Home</a><a href="/books/GatherRound/Section0068.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/100825 Skills to Take Home.mp3" class="audio" title="download audio"><span class="smalldate mono">100825</span> Skills to Take Home</a><a href="/books/GatherRound/Section0069.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2001/0108n2a2 New Feeding Habits.mp3" class="audio" title="download audio"><span class="smalldate mono">0108&nbsp;&nbsp;</span> New Feeding Habits</a><a href="/books/GatherRound/Section0070.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2007/071220 The Skill of Restraint.mp3" class="audio" title="download audio"><span class="smalldate mono">071220</span> The Skill of Restraint</a><a href="/books/GatherRound/Section0071.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110812 Right Speech, Inside & Out.mp3" class="audio" title="download audio"><span class="smalldate mono">110812</span> Right Speech, Inside <em>&amp;</em> Out</a><a href="/books/GatherRound/Section0072.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120416_A_Meditator_Is_a_Good_Friend_to_Have.mp3" class="audio" title="download audio"><span class="smalldate mono">120416</span> A Meditator is a Good Friend to Have</a><a href="/books/GatherRound/Section0073.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101210 The Ivory Intersection.mp3" class="audio" title="download audio"><span class="smalldate mono">101210</span> The Ivory Intersection</a><a href="/books/GatherRound/Section0074.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2009/090123 Caring without Clinging.mp3" class="audio" title="download audio"><span class="smalldate mono">090123</span> Caring Without Clinging</a><a href="/books/GatherRound/Section0075.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110512 Protecting Your Space.mp3" class="audio" title="download audio"><span class="smalldate mono">110512</span> Protecting Your Space</a><a href="/books/GatherRound/Section0076.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2008/080528 An Anthropologist from Mars.mp3" class="audio" title="download audio"><span class="smalldate mono">080528</span> An Anthropologist from Mars</a><a href="/books/GatherRound/Section0077.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2005/050316 Renunciation.mp3" class="audio" title="download audio"><span class="smalldate mono">050316</span> Renunciation</a><a href="/books/GatherRound/Section0078.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li class="first half">Part Four</li>
+          <li><a href="/Archive/y2009/090130 The Four Jhanas.mp3" class="audio" title="download audio"><span class="smalldate mono">090130</span> The Four Jhanas</a><a href="/books/GatherRound/Section0079.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110821 The Poison Blowfish.mp3" class="audio" title="download audio"><span class="smalldate mono">110821</span> The Poison Blowfish</a><a href="/books/GatherRound/Section0080.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110904 (sony) Proactive with Pain.mp3" class="audio" title="download audio"><span class="smalldate mono">110904</span> Proactive with Pain</a><a href="/books/GatherRound/Section0081.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110310 The Swinging Balance.mp3" class="audio" title="download audio"><span class="smalldate mono">110310</span> The Swinging Balance</a><a href="/books/GatherRound/Section0082.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110211 Heedful of Death.mp3" class="audio" title="download audio"><span class="smalldate mono">110211</span> Heedful of Death</a><a href="/books/GatherRound/Section0083.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110127 Balance & Release.mp3" class="audio" title="download audio"><span class="smalldate mono">110127</span> Balance <em>&amp;</em> Release</a><a href="/books/GatherRound/Section0084.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101006 Broad, Tall & Deep.mp3" class="audio" title="download audio"><span class="smalldate mono">101006</span> Broad, Tall, <em>&amp;</em> Deep</a><a href="/books/GatherRound/Section0085.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101007 Levels of Truth.mp3" class="audio" title="download audio"><span class="smalldate mono">101007</span> Levels of Truth</a><a href="/books/GatherRound/Section0086.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111111_Feeding_on_Feeding.mp3" class="audio" title="download audio"><span class="smalldate mono">111111</span> Feeding on Feeding</a><a href="/books/GatherRound/Section0087.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2006/061023 Feeding Frenzy! Dependent Co-arising.mp3" class="audio" title="download audio"><span class="smalldate mono">061023</span> Feeding Frenzy</a><a href="/books/GatherRound/Section0088.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2008/080731 Good Eating.mp3" class="audio" title="download audio"><span class="smalldate mono">080731</span> Good Eating</a><a href="/books/GatherRound/Section0089.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111010 Cutting New Paths in the Mind.mp3" class="audio" title="download audio"><span class="smalldate mono">111010</span> Cutting New Paths in the Mind</a><a href="/books/GatherRound/Section0090.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2009/091110 Skills of the Dhamma Wheel.mp3" class="audio" title="download audio"><span class="smalldate mono">091110</span> Skills of the Dhamma Wheel</a><a href="/books/GatherRound/Section0091.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101009 Chewed Up by Your Food.mp3" class="audio" title="download audio"><span class="smalldate mono">101009</span> Chewed Up by Your Food</a><a href="/books/GatherRound/Section0092.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110720 Isolating the Aggregates.mp3" class="audio" title="download audio"><span class="smalldate mono">110720</span> Isolating the Aggregates</a><a href="/books/GatherRound/Section0093.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2007/071208 Transparent Becoming.mp3" class="audio" title="download audio"><span class="smalldate mono">071208</span> Transparent Becoming</a><a href="/books/GatherRound/Section0094.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111225_Sensitive_to_the_Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">111225</span> Sensitive to the Breath</a><a href="/books/GatherRound/Section0095.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111227_Don't_Worry,_Be_Focused.mp3" class="audio" title="download audio"><span class="smalldate mono">111227</span> Don’t Worry, Be Focused</a><a href="/books/GatherRound/Section0096.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/111229_Full_Attention.mp3" class="audio" title="download audio"><span class="smalldate mono">111229</span> Full Attention</a><a href="/books/GatherRound/Section0097.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120102_Generating_Energy.mp3" class="audio" title="download audio"><span class="smalldate mono">120102</span> Generating Energy</a><a href="/books/GatherRound/Section0098.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120111_Strengthening_Discernment.mp3" class="audio" title="download audio"><span class="smalldate mono">120111</span> Strengthening Discernment</a><a href="/books/GatherRound/Section0099.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120126_Sensuality.mp3" class="audio" title="download audio"><span class="smalldate mono">120126</span> Sensuality</a><a href="/books/GatherRound/Section0100.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120622_Equanimity_Isn't_Everything.mp3" class="audio" title="download audio"><span class="smalldate mono">120622</span> Equanimity Isn’t Everything</a><a href="/books/GatherRound/Section0101.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120728_The_Essence_of_the_Dhamma.mp3" class="audio" title="download audio"><span class="smalldate mono">120728</span> The Essence of the Dhamma</a><a href="/books/GatherRound/Section0102.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120806_Freedom_through_Painful_Practice.mp3" class="audio" title="download audio"><span class="smalldate mono">120806</span> Freedom through Painful Practice</a><a href="/books/GatherRound/Section0103.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <p class="first half"><em>The Buddha’s sixteen-steps of breath meditation</em></p>
+          <li><a href="/Archive/y2002/0211n3a1 Steps of Breath Meditation, The.mp3" class="audio" title="download audio"><span class="smalldate mono">0211&nbsp;&nbsp;</span> The Steps of Breath Meditation</a><a href="/books/GatherRound/Section0104.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2007/070716 Lessons in Happiness.mp3" class="audio" title="download audio"><span class="smalldate mono">070716</span> Lessons in Happiness</a><a href="/books/GatherRound/Section0105.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2008/080211 On the Path of the Breath.mp3" class="audio" title="download audio"><span class="smalldate mono">080211</span> On the Path of the Breath</a><a href="/books/GatherRound/Section0106.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2010/101002 The Breath All the Way (16 Steps).mp3" class="audio" title="download audio"><span class="smalldate mono">101002</span> The Breath All the Way</a><a href="/books/GatherRound/Section0107.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110829 Exploring Fabrication.mp3" class="audio" title="download audio"><span class="smalldate mono">110829</span> Exploring Fabrication</a><a href="/books/GatherRound/Section0108.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2012/120203_Breath,_Tranquility_&_Insight.mp3" class="audio" title="download audio"><span class="smalldate mono">120203</span> Breath, Tranquility, <em>&amp;</em> Insight</a><a href="/books/GatherRound/Section0109.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li class="first half">Part Five</li>
+          <li><a href="/Archive/y2009/090730 Admirable Friendship.mp3" class="audio" title="download audio"><span class="smalldate mono">090730</span> Admirable Friendship</a><a href="/books/GatherRound/Section0110.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110514 To Purify the Heart.mp3" class="audio" title="download audio"><span class="smalldate mono">110514</span> To Purify the Heart</a><a href="/books/GatherRound/Section0111.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110405 Remembering Ajaan Suwat.mp3" class="audio" title="download audio"><span class="smalldate mono">110405</span> Remembering Ajaan Suwat</a><a href="/books/GatherRound/Section0112.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2011/110125 Multi-dimensional Dhamma.mp3" class="audio" title="download audio"><span class="smalldate mono">110125</span> Multi-dimensional Dhamma</a><a href="/books/GatherRound/Section0113.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2007/070721 Factors for Stream Entry.mp3" class="audio" title="download audio"><span class="smalldate mono">070721</span> Factors for Stream Entry</a><a href="/books/GatherRound/Section0114.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2008/081021_NR The Brightness of the World.mp3" class="audio" title="download audio"><span class="smalldate mono">081021</span> The Brightness of the World</a><a href="/books/GatherRound/Section0115.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+          <li><a href="/Archive/y2007/070320 A Refuge from Modern Values.mp3" class="audio" title="download audio"><span class="smalldate mono">070320</span> A Refuge from Modern Values</a><a href="/books/GatherRound/Section0116.html" title="read online" class="pdf"><img src="/images/pdf_36.png" /></a></li>
+        </ul>
+      </ul>
+
+  
+<li class="month" id="other"><a href="/mp3_topical_index.html" class="buried">Other Themed Collections.</a></li>
+<p>Talks from the archive addressing specific topics, such as breath meditation, breaking old habits, pain, and the Sublime Attitudes.</p>
+</ul>
+
+	</div><!--end:fullarchive-->
+	</div><!--end:welcome-->
+	</div><!--end:content-->
+
+       <div id="nav-footer-wrapper">
+    <div id="nav-footer">
+      <ul>
+        <li><a href="#" onclick="javascript:history.go(-1);return true;" class="ui-btn clickable" title="back"><img src="/images/actions/go-previous-symbolic-orange.png" width="18px" /></a><br /></li>
+        <!--<li><a href="/suttas/index.html" title="suttas home"><img src="/images/actions/go-home-symbolic-orange.png" width="18px" /></a><br /></li>-->
+        <li><a href="/search.html" title="search"><img src="/images/actions/search-symbolic-orange.png" width="18px" /></a><br /></li>
+        <li><a href="#container" title="top"><img src="/images/actions/go-top-symbolic-orange.png" width="18px" /></a><br /></li>
+        <li><a href="/suttas/glossary.html" title="glossary"><img src="/images/actions/glossary-symbolic-orange.png" width="18px" /></a><br /></li>
+        <li><a href="#" onclick="window.print();return false;" class="ui-btn clickable" title="print"><img src="/images/actions/document-print-symbolic-orange.png" width="18px" /></a><br /></li>
+      </ul>
+    </div><!--end:navfooter-->
+  </div><!--end:nav-footer-wrapper-->
+
+
+ 
+
+</div><!--end:container-->
+
+<!-------ALL SCRIPTS BELOW HERE-------->
+
+    <!--this puts the logo image into the slicknav menu-->
+  <script type="text/javascript">
+    $(document).ready(function(){
+                    $('.slicknav_menu').prepend('<a href="/index.html"><img src="/images/dto_logo_160x680.png" id="masthead" width="250" alt="home | dhammatalks.org" /></a>');
+                });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+                    $('div#nav-wrapper').prepend('<a href="/index.html"><img src="/images/dto_logo_160x680.png" id="masthead" width="250" alt="home | dhammatalks.org" /></a>');
+                });
+  </script>
+
+ 
+    <script src="/js/play-audio.js" async></script>
+
+</body>
+</html>
+
+
