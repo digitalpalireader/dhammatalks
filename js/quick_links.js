@@ -46,7 +46,8 @@
     }
   }
 
-  $.get('/data.json', function(data) {
+  var dtRoot = window.location.href.substring(0, window.location.href.indexOf('suttas')).replace(/\/$/, '')
+  $.get(dtRoot + '/data.json', function(data) {
     var qlinks = getQuickLinks();
     var maxItems = qlinks.data()['max_items'];
     var allowMore = qlinks.data()['allow_more'];

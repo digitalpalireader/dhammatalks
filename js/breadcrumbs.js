@@ -4,26 +4,28 @@ var prefix = 'Navigation'
 
 var separator = '/';
 
-var linkSpecs = {
-  'suttas': ['Suttas', '/suttas/index.html'],
-  'DN': ['DN', '/suttas/DN/index_DN.html'],
-  'MN': ['MN', '/suttas/MN/index_MN.html'],
-  'SN': ['SN', '/suttas/SN/index_SN.html'],
-  'AN': ['AN', '/suttas/AN/index_AN.html'],
-  'KN': ['KN', '/suttas/KN/index_KN.html'],
-  'Dhp': ['Dhp', '/suttas/KN/Dhp/index_Dhp.html'],
-  'Khp': ['Khp', '/suttas/KN/Khp/index_Khp.html'],
-  'Ud': ['Ud', '/suttas/KN/Ud/index_Ud.html'],
-  'Iti': ['Iti', '/suttas/KN/Iti/index_Iti.html'],
-  'StNp': ['Sn', '/suttas/KN/StNp/index_StNp.html'],
-  'Thag': ['Thag', '/suttas/KN/Thag/index_Thag.html'],
-  'Thig': ['Thig', '/suttas/KN/Thig/index_Thig.html'],
+var dtRoot = window.location.href.substring(0, window.location.href.indexOf('suttas')).replace(/\/$/, '')
 
-  'QuestionofBhikkhuniOrdination': ['Bhikkhuni Ordination', '/books/QuestionofBhikkhuniOrdination/Contents.html'],
-  'FactorsforAwakening': ['Factors for Awakening', '/books/FactorsforAwakening/Contents.html'],
-  'NibbanaDescription': ['Talking about Nirvana', '/books/uncollected/NibbanaDescription.html'],
-  'books': ['Books', '/ebook_index.html'],
-  'uncollected': ['Misc Essays', '/uncollected_essays_index.html'],
+var linkSpecs = {
+  'suttas': ['Suttas', dtRoot + '/suttas/index.html'],
+  'DN': ['DN', dtRoot + '/suttas/DN/index_DN.html'],
+  'MN': ['MN', dtRoot + '/suttas/MN/index_MN.html'],
+  'SN': ['SN', dtRoot + '/suttas/SN/index_SN.html'],
+  'AN': ['AN', dtRoot + '/suttas/AN/index_AN.html'],
+  'KN': ['KN', dtRoot + '/suttas/KN/index_KN.html'],
+  'Dhp': ['Dhp', dtRoot + '/suttas/KN/Dhp/index_Dhp.html'],
+  'Khp': ['Khp', dtRoot + '/suttas/KN/Khp/index_Khp.html'],
+  'Ud': ['Ud', dtRoot + '/suttas/KN/Ud/index_Ud.html'],
+  'Iti': ['Iti', dtRoot + '/suttas/KN/Iti/index_Iti.html'],
+  'StNp': ['Sn', dtRoot + '/suttas/KN/StNp/index_StNp.html'],
+  'Thag': ['Thag', dtRoot + '/suttas/KN/Thag/index_Thag.html'],
+  'Thig': ['Thig', dtRoot + '/suttas/KN/Thig/index_Thig.html'],
+
+  'QuestionofBhikkhuniOrdination': ['Bhikkhuni Ordination', dtRoot + '/books/QuestionofBhikkhuniOrdination/Contents.html'],
+  'FactorsforAwakening': ['Factors for Awakening', dtRoot + '/books/FactorsforAwakening/Contents.html'],
+  'NibbanaDescription': ['Talking about Nirvana', dtRoot + '/books/uncollected/NibbanaDescription.html'],
+  'books': ['Books', dtRoot + '/ebook_index.html'],
+  'uncollected': ['Misc Essays', dtRoot + '/uncollected_essays_index.html'],
 };
 
 var removeEmpty = function(arr) {
